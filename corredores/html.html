@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/js.js"></script>
+</head>
+<body>
+    Nombre
+    <br>
+    <input id="nombre" type="text" placeholder="Escriba el nombre" onblur="ValidateNombre()">
+    <br>
+    email
+    <form name="email1" action="#"> 
+       <input type='text' name='text1' onblur="ValidateEmail(document.email1.text1)" id="email"/>
+    </form>
+
+    <input type="radio" id="si" name="val_sino" value="si" onclick="siono()">
+    <label for="si">si</label><br>
+    <div id="campokm"></div>
+    <input type="radio" id="no" name="val_sino" value="no">
+    <label for="no">no</label><br>
+
+
+<br>
+    <button onclick="MostrarBoton()">Enviar</button>
+    
+</body>
+</html>
